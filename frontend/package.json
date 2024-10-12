@@ -1,0 +1,17 @@
+{
+    "name": "todonow",
+    "version": "1.0.0",
+    "description": "A simple task management application.",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    },
+    "author": "",
+    "license": "ISC"
+}
+
+
