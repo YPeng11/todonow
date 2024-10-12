@@ -1,9 +1,9 @@
-package   包 com.todonow.service;
+package com.todonow.service;
 
-import com.todonow.model.Task;进口com.todonow.model.Task;
-import com.todonow.repository.TaskRepository;进口com.todonow.repository.TaskRepository;
-import org.springframework.beans.factory.annotation.Autowired;进口org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;进口org.springframework.stereotype.Service;
+import com.todonow.model.Task;
+import com.todonow.repository.TaskRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
@@ -41,4 +41,3 @@ public class TaskService {
         taskRepository.deleteById(id);
     }
 }
-
