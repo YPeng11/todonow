@@ -1,20 +1,18 @@
-package   包 com.todonow.model;
+package com.todonow.model;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-public class   类 Task   任务 {
+public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private   私人 Long id;
-    private   私人 String title;
-    private   私人 String description   描述;
-    private   私人 LocalDateTime createdAt;
-    private   私人 LocalDateTime dueDate;
-    private   私人 boolean completed   完成;
+    private Long id;
+    private String title;
+    private String description;
+    private LocalDateTime createdAt;
+    private LocalDateTime dueDate;
+    private boolean completed;
 
     // Constructors, getters, and setters
 }
-
-
