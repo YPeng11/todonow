@@ -1,0 +1,10 @@
+Changelog 
+[1.1.0] - 2024-10-13
+New function
+Task management API: The RESTful API interface is implemented to support creating, reading, updating and deleting tasks.
+User authentication: Add user registration and login capabilities, using JWT for authentication.
+Task priority: Added task priority function, users can set the priority for each task (high, medium, low).
+Deadline reminder: The implementation of the deadline reminder function, users can choose whether to receive the deadline notification.
+Renewal
+Front-end interface optimization: Updated the user interface style, improved responsive design, and improved user experience.
+Dependency Updates: Multiple front-end and back-end dependency libraries have been updated to the latest version to enhance security and performance.
